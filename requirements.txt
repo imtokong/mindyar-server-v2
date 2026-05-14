@@ -6,3 +6,4 @@ openpyxl
 python-dotenv
 gunicorn
 boto3
+gunicorn

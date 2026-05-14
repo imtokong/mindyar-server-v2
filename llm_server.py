@@ -354,7 +354,7 @@ def tts():
         if not text or len(text) < 1:
             return jsonify({"error": "텍스트가 비어있습니다"}), 400
         text = clean_text_for_tts(text)
-        ssml_text = f"<speak><prosody rate='80%'>{text}</prosody></speak>"
+        ssml_text = f"<speak><prosody rate='85%'>{text}</prosody></speak>"
 
         # 1. mp3 생성
         audio_response = polly_client.synthesize_speech(

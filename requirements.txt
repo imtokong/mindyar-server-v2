@@ -1,0 +1,8 @@
+flask
+flask-cors
+openai>=1.1.0
+pandas
+openpyxl
+python-dotenv
+gunicorn
+boto3
